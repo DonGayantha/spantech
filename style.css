@@ -1,0 +1,401 @@
+             /*navigation bar starst here*/
+
+*{margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(171, 171, 171, 0.459),rgba(55, 54, 54, 0.671)), url(images/homecover2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+   
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.558);
+    box-shadow: 3px 3px 5px rgba(146, 144, 144, 0.233);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    transition: 0.5s;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.034);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.manuButton{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .manuButton{
+        display: block;
+}
+    .hometext{
+        position: relative;
+        top: 400px;
+    
+
+}
+
+}
+
+
+
+
+                            /*navigation bar ends here*/
+
+
+                            /*text start here*/
+
+
+
+
+                        .textbox{
+                            width: 90%;
+                            color: rgb(255, 255, 255);
+                            position: absolute;
+                            top: 40%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            text-align: center;
+                        }
+                        .textbox h1{
+                            font-size: 62px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            
+                        }
+
+                        .textbox p{
+                            margin: 10% 5%;
+                            font-size: 25px;
+                        }
+
+                                        /*text ends here*/
+                        .visitus-btn{
+                            display: inline-block;
+                            text-decoration: none;
+                            color: rgb(255, 255, 255);
+                            border: 1px solid rgba(255, 255, 255, 0.726);
+                            padding: 12px 38px;
+                            font-size: 13px;
+                            background: transparent;
+                            position: relative;
+                            cursor: pointer;
+                        }
+
+                        .visitus-btn:hover{
+                            border: 1px solid black;
+                            background: black;
+                            transition: 1s;
+
+
+                        }
+                        .maps{
+                            margin: 10% 10%;
+                            height: 400px;
+                            width: 80%;
+                            text-align: center;
+                            display: inline-block;
+                        }
+
+
+                    /*Quotaion starts here*/
+
+#registration{
+    padding: 6vw 8vw 6vw 8vw ;
+}
+
+#registration form {
+    background-color: rgba(248, 248, 248, 0.688);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    text-align: center;
+    
+}
+
+
+
+#registration form input{
+    margin-top: 15px ;
+    padding: 15px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+
+
+
+#registration .submit-btn{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgba(4, 3, 8, 0.41);
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top : 80px;
+    outline: none;
+    
+
+
+}
+
+
+
+#registration .submit-btn:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.434);
+    
+    
+
+}
+
+
+
+/*Quotaion ends here*/
+
+
+                    
+                    /*products starts here*/
+                    .products{
+                        width: 80%;
+                        margin: auto;
+                        text-align: center;
+                        padding-top: 100px;
+                    
+                    }
+                    
+                    h1 {
+                        font-size: 56px;
+                        font-weight: 600;
+                        color: aliceblue;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    
+                    p{
+                        color: aliceblue;
+                        font-size: 24px;
+                        font-weight: 300;
+                        line-height: 22px;
+                        padding: 10px;
+                        text-align: center;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    
+                    }
+                    
+                    h6{
+                        text-align: center;
+                        color: aliceblue;
+                        font-size: 20px;
+                    }
+                    
+                    .products {
+                        padding: 8vw 8vw 0 8vw;
+                        text-align: center;
+                    
+                    }
+                    
+                    .product {
+                        text-align: start;
+                        background: black;
+                        height: 100%;
+                    
+                    }
+                    
+                    .product img{
+                        width: 100%;
+                        height: 60%;
+                        background-size: cover;
+                       
+                    }
+
+                    .pimg{
+                        background-color: rgba(25, 25, 25, 0.622);
+                        text-decoration: none;
+                    }
+
+                    .pimg img{
+                        width: 100%;
+                        height: 60%;
+                        background-size: cover;
+                       
+                    }
+
+                    .product-box {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                        grid-gap: 1rem;
+                        margin-top: 50px;
+                    
+                    
+                    }
+
+                    /*products ends here*/
+
+/*about starts here*/
+.about{
+    background-color: rgba(138, 138, 138, 0.519);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    text-align: center;
+    margin: 30px;
+    
+
+}
+
+.about h1{
+    font-size: 60px;
+}
+
+.about h3{
+    font-size: 50px;
+    color: white;
+    padding-top: 100px;
+}
+
+.about p{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.people-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+.people {
+    text-align: start;
+    background: black;
+    height: 100%;
+
+}
+.people img{
+    width: 100%;
+    
+    background-size: cover;
+   
+}
+
+
+/*about ends here*/
+
+
+
+
+
+                    /*contact starts here*/
+
+                    .contactus{
+                        font-size: 50px;
+                        text-align: center;
+                        padding: 50px;
+                    }
+
+
+
+                    .contact{
+                        margin-left: 20%;
+                        margin-right: 20%;
+                        background-color: rgba(255, 255, 255, 0.285);
+                        padding: 10%;
+                        border-radius: 20px;
+                    }
+
+                    .contact-btn{
+                        text-align: center;
+                        
+                       
+                    }
+
+                    .contact-btn a:hover{
+                        
+                        background-color: rgba(255, 255, 255, 0.434);
+                        padding: 40px;
+                        margin: 30px;
+                        
+
+                    }
+
+                    .contact-btn a{
+                        
+                        text-align: center;
+                        padding: 30px;
+                        border-radius: 20px;
+                        transition: 0.5s;
+                        text-decoration: none;
+                        
+                        
+                        
+                    }
+
+                    @media(max-width: 800px){
+                        .contact-btn{
+                            display: grid;
+                        }
+                        .contact-btn a svg{
+                            height: 80px;
+                            width: 80px;
+                        }
+
+                        .contact-btn a:hover{
+                        
+                            
+                            padding: 20px;
+                        }
+                           
+
+                    }
